@@ -1,0 +1,18 @@
+body{
+    background-image: url(1234.jfif);
+    color: black;
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-attachment: fixed;
+}
+.img{
+    border: 4px double rgb(132, 0, 255);
+    width: 40vw;
+    background-color: rgb(255, 174, 0);
+}
+.nav{
+    background-color: rgb(0, 255, 200);
+}
+.table{
+    width: 100vw;
+}

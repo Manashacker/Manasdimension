@@ -1,0 +1,12 @@
+body{
+    background-image: url(1234.jfif);
+    color: black;
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-attachment: fixed;
+}
+.box2{
+    width: 100vw;
+    background-color:  rgb(0, 255, 149);
+    border: 2vh double rgb(59, 160, 135)
+}

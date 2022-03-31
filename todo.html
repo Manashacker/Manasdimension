@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Manas Dimension</title>
+  <link rel="stylesheet" href="manas.css">
+</head>
+  <body>
+    <h1>  <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">Manas Dimension</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="http://127.0.0.1:5500/manas.html#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Information.html">SEO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Aboutme.html">About me</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/countries.html">Countries</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Visit.html">Some world,s amazing things
+                  </a></li>
+                  <li><a class="dropdown-item"href="http://127.0.0.1:5500/index.html">Information Bag</a></li>
+                 
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/about.html">Video Library</a></li>
+                  <li><a class="dropdown-item" href="hhttp://127.0.0.1:5500/todo.html">Add a Todo</a></li>
+             
+           
+          </div>
+        </div>
+        <div class="container">
+          <a href="http://127.0.0.1:5500/manas.html" ><button id="btn" onclick="Clicked()">Click here to enter Manas Dimension</button></a>
+         </div>
+
+      </nav>
+    <div class="container-fluid my-4">
+        <h2 class="text-center">TODOs List</h2>
+         
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" rows="3"></textarea>
+            </div>
+            
+
+            <button   id="add" class="btn btn-dark">Add</button>
+            <button  id="clear" class="btn btn-dark" onclick="clearStorage()">Clear list</button>
+         
+
+        <div id="items" class="container-fluid">
+            <h2>Your Items</h2>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">SNo</th>
+                    <th scope="col"> Title</th>
+                    <th scope="col">Description</th> 
+                    <th scope="col">Actions</th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr id=>
+                    <th scope="row">1</th>
+                    <td>Get some Coffee</td>
+                    <td>You need coffee as you are a coder</td> 
+                    <td><button class="btn btn-dark">Delete</button></td> 
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        <script src="Todo.js"></script>
+</body>
+
+</html>
